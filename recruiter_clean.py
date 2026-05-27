@@ -1,12 +1,16 @@
 from openai import OpenAI
 import json
 import re
+import os                    
+from dotenv import load_dotenv  
 
 # ============================================
 # CHUTES.AI SETUP
 # ============================================
 
-API_KEY = "cpk_61e3aa51b9ed4f2998bdc9f68af009e3.2e74bd982a705763adc79275386d985a.Z888oaCoyaUoJI1BDDi3JZVc4piJv5q2"
+load_dotenv()
+
+API_KEY = os.getenv("CHUTES_API_KEY")
 
 client = OpenAI(
     base_url="https://llm.chutes.ai/v1",
