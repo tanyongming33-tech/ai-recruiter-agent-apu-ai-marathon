@@ -15,6 +15,14 @@
 3. Run the script:
 4. Type "sample" or paste any job description
 
+## Environment Setup
+
+1. Copy `.env.example` to `.env`
+2. Edit `.env` and add your Chutes.ai API key:
+3. Install python-dotenv:
+```bash
+pip install python-dotenv
+
 ### Tech Stack
 - Chutes.ai LLM (Qwen3-32B-TEE)
 - Python
