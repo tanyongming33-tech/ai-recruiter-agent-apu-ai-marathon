@@ -12,3 +12,18 @@
 
 1. Install Python 3.11+
 2. Install dependencies:
+3. Run the script:
+4. Type "sample" or paste any job description
+
+### Tech Stack
+- Chutes.ai LLM (Qwen3-32B-TEE)
+- Python
+- OpenAI library
+
+### Agentic Architecture
+The LLM acts as an agent that:
+- Extracts job requirements
+- Ranks candidates with reasoning
+- Generates personalized pitches
+
+
